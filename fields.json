@@ -1,4 +1,27 @@
 {
-    "general": ["token", "prefix", "description", "name", "chan_forward_dm", "guild_remind", "role_remind", "chan_remind"],
-    "server": ["cate_personal_vc", "chan_personal_vc", "chan_message_log", "chan_member_log"]
+  "general": [
+    "token", 
+    "prefix", 
+    "description", 
+    "name", 
+    "bot_user_id", 
+    "chan_forward_dm", 
+    "guild_remind", 
+    "role_remind", 
+    "chan_remind", 
+    "chan_sfw_media", 
+    "chan_nsfw_media", 
+    "chan_helpdesk", 
+    "monitored_channels"
+  ], 
+  "server": [
+    "cate_personal_vc", 
+    "chan_personal_vc", 
+    "chan_message_log", 
+    "chan_member_log", 
+    "confirm_sent_reaction", 
+    "negative_reaction", 
+    "reminder_user_id", 
+    "reminder_bump_minutes"
+  ]
 }
